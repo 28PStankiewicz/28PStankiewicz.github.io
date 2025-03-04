@@ -1,0 +1,6 @@
+[
+null,
+{"id":1,"battlerName":"Battle character","characterIndex":0,"characterName":"Character body","classId":2,"equips":[7,0,0,20,0],"faceIndex":0,"faceName":"Character face","traits":[],"initialLevel":99,"maxLevel":99,"name":"Peyton","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"","characterIndex":1,"characterName":"Nature","classId":1,"equips":[45,29,0,1,0],"faceIndex":1,"faceName":"Nature","traits":[],"initialLevel":1,"maxLevel":99,"name":"Winifred","nickname":"Winny","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"Nature","classId":9,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nature","traits":[],"initialLevel":1,"maxLevel":99,"name":"Butterdog","nickname":"Butterdog","note":"","profile":"An incredibly great friend."}
+]

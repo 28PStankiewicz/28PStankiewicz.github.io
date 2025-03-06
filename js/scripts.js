@@ -34,5 +34,5 @@ function showhide() {
         toolbarbuttons.style.display = 'none';
     } else {
         toolbarbuttons.style.display = 'block';
-   }
+}
     }

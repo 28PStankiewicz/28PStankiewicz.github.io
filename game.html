@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>superfungame</title>
+    <style>
+        #play {
+            transition-duration: 0.2s;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="score"><b>Score: 0</b></div>
+    <button id="play" onmouseover="move()">Click here to play!</button>
+</body>
+<script>
+    var playbutton = document.getElementById("play");
+
+    function move() {
+        let x = Math.random() * window.innerWidth;
+        let y = Math.random() * window.innerHeight;
+        playbutton.style.position = 'absolute'
+        playbutton.style.top = y + "px";
+        playbutton.style.left = x + "px";  
+    }
+
+    move();
+</script>
+</html>
